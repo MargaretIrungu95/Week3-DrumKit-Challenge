@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(90deg, rgb(180, 67, 202) 0%, 
+                rgb(112, 9, 121) 35%, rgba(45, 1, 62, 1) 100%);
+}
+h1 {
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                   0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+#introLine{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: rgb(138, 238, 6);
+}
+
+.buttons{
+    display: inline-block;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #0e0000; 
+    border-radius: 10px; 
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.buttons:hover {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
+#boomBtn{
+    display: flexbox;
+    flex-direction: column ;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 8px 8px -4px rgb(0, 43, 39);
+    width: 35%;
+    color: aquamarine;
+}
+
+#clapBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(53, 2, 2);
+    width: 35%;
+    color: rgb(89, 255, 13);
+}
+
+#hihatBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(0, 31, 39);
+    width: 35%;
+    color: rgb(245, 183, 183);
+}
+
+#kickBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(27, 0, 39);
+    width: 35%;
+    color: rgb(199, 144, 250);
+}
+
+#openhatBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(4, 0, 36);
+    width: 35%;
+    color: rgb(111, 0, 255);
+}
+
+#rideBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(48, 14, 0);
+    width: 35%;
+    color: rgb(160, 255, 116);
+}
+
+#snareBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(7, 1, 32);
+    width: 35%;
+    color: rgb(247, 184, 255);
+}
+
+#tinkBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(46, 1, 1);
+    width: 35%;
+    color: rgb(255, 113, 113);
+}
+
+#tomBtn{
+    display: flexbox;
+    flex-direction: column ;
+    box-shadow: 0 8px 8px -4px rgb(0, 12, 3);
+    width: 35%;
+    color: rgb(162, 81, 255);
+
+}

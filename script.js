@@ -9,6 +9,7 @@ document.addEventListener('keydown', function(e) {
    if (e.key == "a") {
       if (boomSound.paused){
          boomSound.play();
+         
       } 
       else{
          boomSound.pause;
@@ -158,3 +159,4 @@ document.addEventListener('keydown', function(e) {
       }
    }
 })
+
